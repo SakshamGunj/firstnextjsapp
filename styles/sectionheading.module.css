@@ -1,0 +1,9 @@
+.section_heading{
+    background-color: rgb(255, 255, 255);
+    grid-column: 2/16;
+    grid-row: 4/5;
+    display: grid;
+    place-items: center;
+    grid-template-rows: min-content 3rem;
+    margin-bottom: 6rem;
+}

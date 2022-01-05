@@ -1,0 +1,28 @@
+.main{
+    background-color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.425);
+    display: grid;
+    grid-template-columns: minmax(min-content, 2rem) repeat(14, minmax(min-content, 1fr)) minmax(min-content, 2rem);
+    grid-template-rows: 10vh 60vh minmax(min-content, 30vh)  min-content min-content min-content min-content min-content min-content;
+}
+
+
+
+.image{
+    object-fit: contain;
+    width: 100%;
+   position: relative;
+   height: unset;
+}
+
+
+
+@media only screen and (max-width: 670px) {
+    .main{
+        background-color: rgb(255, 255, 255);
+        color: white;
+        display: grid;
+        grid-template-columns: minmax(min-content, 0.5rem) repeat(14, minmax(min-content, 1fr)) minmax(min-content, 0.5rem);
+        grid-template-rows: 10vh 60vh minmax(min-content, 25vh)  min-content min-content min-content min-content min-content min-content;
+    }
+}

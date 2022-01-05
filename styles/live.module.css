@@ -1,0 +1,31 @@
+.live_heading{
+    background-color: rgb(255, 255, 255);
+    grid-column: 2/16;
+    grid-row: 4/5;
+    display: grid;
+    place-items: center;
+    grid-template-rows: min-content 3rem;
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+}
+.live_option{
+    background-color: rgb(255, 255, 255);
+    grid-column: 2/16;
+    grid-row: 5/6;
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, min-content));
+    grid-column-gap: 5rem;
+}
+
+.card{
+    display: grid;
+    grid-template-rows: 1fr min-content;
+    width: 35rem;
+    justify-items: center;
+}
+
+.card img{
+    border-radius: 2rem;
+    width: 100%;
+}

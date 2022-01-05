@@ -1,0 +1,39 @@
+.nav{
+    background-color: rgb(255, 255, 255);
+    grid-row: 1/2;
+    grid-column: 2/16;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+
+}
+.listing_property{
+
+}
+.menu{
+
+}
+.logo h1{
+    font-size: 2.3rem;
+    animation: animateBg 8s linear infinite alternate-reverse;
+    letter-spacing: 1.3px;
+}
+
+
+@keyframes animateBg {
+    0% { color: #ff0000; }
+    10% { color: #ffff00; }
+    20% { color: #00ff00; }
+    30% { color: #00ffff; }
+    40% { color: #0000ff; }
+    50% { color: #ff00ff; }
+    60% { color: #ff0000; }
+    70% { color: #ffff00; }
+    80% { color: #bb3456; }
+    90% { color: #3ec7c7; }
+    100% { color: orangered; }
+}
+  
