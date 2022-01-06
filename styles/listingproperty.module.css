@@ -1,7 +1,7 @@
 .main{
     background-color: white;
     display: grid;
-    grid-template-columns: minmax(min-content, 2rem) repeat(14, minmax(min-content, 1fr)) minmax(min-content, 2rem);
+    grid-template-columns: minmax(min-content, 1rem) repeat(14, minmax(min-content, 1fr)) minmax(min-content, 1rem);
     grid-template-rows: 10vh 10vh min-content;
 }
 
@@ -103,7 +103,7 @@
     .main{
         background-color: white;
         display: grid;
-        grid-template-columns: minmax(min-content, 2rem) repeat(14, minmax(min-content, 1fr)) minmax(min-content, 2rem);
+        grid-template-columns: minmax(min-content, 1rem) repeat(14, minmax(min-content, 1fr)) minmax(min-content, 1rem);
         grid-template-rows: 10vh 10vh min-content;
     }
     .preview{
