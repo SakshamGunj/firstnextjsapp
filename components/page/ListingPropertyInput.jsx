@@ -69,7 +69,7 @@ export function ListingPropertyInput() {
               <div className={styles.price_heading}><Heading3_gray_thin content='Price' /></div>
               <div className={styles.money}><Longrectangleinput type='number' placeholder = 'e.g. 180' /></div>  
               <div className={styles.currency}> <OptionInput content={['₹ Ruppee', '$ Dollar']}/></div> 
-              <div className={styles.period}><OptionInput content={['Per Night', 'Per Day', 'Per Week']}/></div> 
+              <div className={styles.period}><OptionInput content={['Per Night', 'Per Day', 'Per Week']}/></div>
             </div>
            </div>
         </div>
