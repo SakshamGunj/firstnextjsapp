@@ -128,7 +128,7 @@
     }
 }
 
-@media only screen and (max-width: 476px) {
+@media only screen and (max-width: 558px) {
     .listing_input{
         grid-column: 2/-2;
         grid-row: 3/4;
