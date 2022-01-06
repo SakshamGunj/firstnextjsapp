@@ -9,6 +9,12 @@
     font-weight: 600;
 }
 
+.gray_h3_thin{
+    color: rgb(90, 90, 90);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
 .h2{
     color: black;
     font-size: 2.5rem;

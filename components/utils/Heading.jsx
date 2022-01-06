@@ -17,6 +17,14 @@ export function Heading3_gray({content}){
     )
 }
 
+export function Heading3_gray_thin({content}){
+    return (
+        <h3 className={styles.gray_h3_thin}>
+            {content}
+        </h3>
+    )
+}
+
 export function Heading2({content}){
     return (
         <h2 className={styles.h2}>{content}</h2>

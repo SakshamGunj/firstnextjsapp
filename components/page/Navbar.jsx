@@ -9,10 +9,10 @@ function Navbar() {
                 <h1>FindNore🧐</h1>
             </div>
             <div className={styles.listing_property}>
-             <PrimaryButtton_white content='List Your property' />
+             <PrimaryButtton_white content='List Your property' link='/listingproperty'/>
             </div>
             <div className={styles.menu}>
-                <PrimaryButtton_white_large content='👩' />
+                <PrimaryButtton_white_large content='U' />
             </div>
         </div>
     )

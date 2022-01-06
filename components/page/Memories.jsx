@@ -11,7 +11,7 @@ export function Memories_Heading() {
     )
 }
 
-function Memories_Content_number({number}){
+export function Memories_Content_number({number}){
     return (
         <button className={styles.number}>{number}</button>
     )
